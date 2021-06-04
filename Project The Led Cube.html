@@ -1,11 +1,16 @@
 <html>
+
+<title>The Ledcube by Coen Weijers</title>
 <h1>Project The Led Cube door Coen Weijers</h1>
 <p>Hieronder ziet u een foto van een 4x4x4 led cube.</p>
 
 <img src="https://circuits-diy.com/wp-content/uploads/2019/04/How-to-make-LED-Cube-1.png"
          alt="Een 4x4x4 Led Cube.">
+
+
 <p> Het project van de led Cube hebben we gemaakt aan de hand van onderstaande code:</p>
-<p>/*
+
+<pre><code>/*
   4x4x4 LED Cube
   Connection Setup:
   Columns
@@ -769,19 +774,50 @@ void goThroughAllLedsOneAtATime()
     digitalWrite(layer[count], 0);
     }
   }
-}
+}</pre></code>
+<p>Dit zijn de oprachten waar we aan moesten werken tijdens het project:</p>
+<p>   1. Maak een aansluitschema van je project.</p>
+<p>   2. Programmeeropdracht 1: laat elke LED kolom om de beurt 50 ms branden.</p>
+<p>   3. Programmeeropdracht 2: laat elke LED rij om de beurt 50 ms branden.</p>
+<p>   4. Laat elke LED om de beurt 50 ms branden. Ga de rij af.</p>
+<p>   5.  Laat elke LED om de beurt 50 ms branden. Ga de rij af. Eens je onder bent ga je van daar uit terug naar boven.</p>
+<p>   6. Laat elke LED om de beurt 50 ms branden. Laat de arduino kiezen welke LED aan de beurt is.</p>
+<p>   7. Regendruppel effect. Laat binnen 1 kolom de LED's om de beurt branden van boven naar beneden. Laat de arduino willekeurig kiezen welke kolom aan de beurt is.</p>
+<p>   8. Laat alle LED's gelijktijdig aan en uit gaan. Versnel dit elke keer tot de LED constant branden.</p>
 </p>
-<p>Dit zijn de oprachten waar we aan moesten werken tijdens et project:
 
-    1. Maak een aansluitschema van je project.
-    2. Programmeeropdracht 1: laat elke LED kolom om de beurt 50 ms branden.
-    3. Programmeeropdracht 2: laat elke LED rij om de beurt 50 ms branden.
-    4. Laat elke LED om de beurt 50 ms branden. Ga de rij af.
-    5.  Laat elke LED om de beurt 50 ms branden. Ga de rij af. Eens je onder bent ga je van daar uit terug naar boven.
-    6. Laat elke LED om de beurt 50 ms branden. Laat de arduino kiezen welke LED aan de beurt is.
-    7. Regendruppel effect. Laat binnen 1 kolom de LED's om de beurt branden van boven naar beneden. Laat de arduino willekeurig kiezen welke kolom aan de beurt is.
-    8. Laat alle LED's gelijktijdig aan en uit gaan. Versnel dit elke keer tot de LED constant branden.
+<p>Project The Led Cube, berekeningen</p>
+
+<p>Geg.
+   I=20mA=0,2A</p>
+   U=3,5V
+<p>Gevr.</p>
+   R,P
+
+<p> Opl.</p>
+
+<p>R=U/(I*16)	 P=U*(I*16) </p>
+<p>R=3,5/(0,2*16) 	P=3,5*3,2</p>
+<p>R=1,04Ω 	P=11,2 W</p>
+
+<p>
+<p>Algemene omschrijving Arduino:</p>
+De Arduino UNO:
+De Arduino UNO is het beste bord om aan de slag te gaan met elektronica en codering. Als dit je eerste ervaring is met sleutelen aan het platform, is de UNO het meest robuuste bord waarmee je kunt beginnen met spelen. De UNO is het meest gebruikte en gedocumenteerde bord van de hele Arduino-familie.
+
+
+<h2>De Arduino UNO</h2>
+
+Het project: The led cube
+Het project The led cube houdt in dat we(meneer Colson) een kubus maken van aan elkaar geschakelde led’s die we aansturen met het bord van de Arduino. We maken bijbehorende oefeningen om te weten wat er precies in de code staat. We maken verschillende patronen die we kunnen tonen in de kubus m.b.v. de led’s. We plannen ons project met Gantt Project. En we maken een elektrisch schema zodat we weten hoe we de led’s aan elkaar moeten aansluiten. Uiteindelijk presenteren we ons project aan mensen die in ons project geïnteresseerd zijn. Onze presentatie wordt bijgewoond door verschillende vakleerkrachten die ons op verschillende vlakken beoordelen.
+
 </p>
+
+<p><pre>Een Arduino (Uno) is een klein board met programmeerbare elektronica. Met een Arduino kan je verschillende elektrische componenten aansturen. Denk aan lampjes, schakelaars, motortjes en verschillende sensoren.
+
+De Arduino Uno Revision 3 – vaak Arduino Uno r3 of Arduino Uno rev3 genoemd – is het meest gebruikte board van Arduino. Dit board is geschikt voor beginners en gevorderde gebruikers. Mede daardoor is de Arduino Uno zo populair. Naast de Arduino Uno heb je nog veel meer boards van Arduino. Lees hier meer over de verschillende Arduino Boards.
+
+   De Uno is gebaseerd op de ATmega328 chip en heeft 14 digitale input/output pinnen. 6 van deze pinnen kunnen voor PWM worden gebruikt.  Verder zijn er 6 analoge input pinnen, een 16 MHz resonator, een USB-aansluiting, een power jack, een ICSP header en een reset knop.Het board bevat alles wat nodig is om de ATmega328 microcontroller te ondersteunen.</pre></p>
 
 <body>
 </body>
